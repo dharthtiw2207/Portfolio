@@ -1,7 +1,7 @@
 # Portfolio
 To Describe Myself<br>
 
-#About Me
+# About Me<br>
 I'm a web developer who loves to create beautiful and functional websites for people who want to make a difference in the world.
 
 # Portfolio Responsive Complete<br>
