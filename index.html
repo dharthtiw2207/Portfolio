@@ -225,18 +225,35 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
 
-        <form action="#">
+        <form action="https://api.web3forms.com/submit" method="POST">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="hidden" name="access_key" value="030a22f1-d198-4c72-be9f-917db057eb2b">
+                
+                <input type="text" name="name" placeholder="Full Name" id="name">
+                <div class="error-txt">Full Name can't be blank</div>
+                
+                <input type="text" name="email" placeholder="Email Address" id="email">
+                <div class="error-txt">Email Address can't be blank</div>
             </div>
+            
             <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="text" name="phone" placeholder="Mobile Number" id="phone">
+                <div class="error-txt">Mobile Number can't be blank</div>
+                
+                <input type="text" name="subject" placeholder="Email Subject" id="subject">
+                <div class="error-txt">Email Subject can't be blank</div>
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            
+            <div class="textarea-field field">
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <div class="error-txt">Message can't be blank</div>
+            </div>
+            
             <input type="submit" value="Send Message" class="btn">
         </form>
+        
+    </section>
+
     </section>
 
     <!-- footer design -->
